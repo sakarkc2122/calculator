@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="calculator_03Frame">
+		<size>340,490</size>
+		<font>
+			<size>14</size>
+			<style>normal</style>
+			<weight>bold</weight>
+			<underlined>0</underlined>
+			<family>swiss</family>
+			<face>Arial Narrow</face>
+		</font>
+		<id_arg>0</id_arg>
+		<object class="wxButton" name="ID_BUTTON7" variable="btn9" member="yes">
+			<label>9</label>
+			<pos>175,190</pos>
+			<size>70,60</size>
+			<handler function="Onbtn9Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="txtDisplay" member="yes">
+			<value>0</value>
+			<pos>15,30</pos>
+			<size>310,70</size>
+			<style>wxTE_RIGHT</style>
+			<handler function="OntxtDisplayText1" entry="EVT_TEXT" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="btnBackSpace" member="yes">
+			<label>del</label>
+			<pos>15,120</pos>
+			<size>70,60</size>
+			<handler function="OnbtnBackSpaceClick1" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>CE</label>
+			<pos>95,120</pos>
+			<size>70,60</size>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="lblShowOp" member="yes">
+			<label></label>
+			<pos>16,32</pos>
+			<size>60,25</size>
+			<fg>wxSYS_COLOUR_MENUTEXT</fg>
+			<style>wxALIGN_RIGHT|wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="btnC" member="yes">
+			<label>C</label>
+			<pos>175,120</pos>
+			<size>70,60</size>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="btnPM" member="yes">
+			<label>+/-</label>
+			<pos>255,120</pos>
+			<size>70,60</size>
+			<handler function="OnbtnPMClick1" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="btn7" member="yes">
+			<label>7</label>
+			<pos>15,190</pos>
+			<size>70,60</size>
+			<handler function="Onbtn7Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON6" variable="btn8" member="yes">
+			<label>8</label>
+			<pos>95,190</pos>
+			<size>70,60</size>
+			<handler function="Onbtn8Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON8" variable="btnPlus" member="yes">
+			<label>+</label>
+			<pos>255,190</pos>
+			<size>70,60</size>
+			<handler function="OnbtnPlusClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON9" variable="BTN4" member="yes">
+			<label>4</label>
+			<pos>15,260</pos>
+			<size>70,60</size>
+			<handler function="OnBTN4Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON10" variable="btn5" member="yes">
+			<label>5</label>
+			<pos>95,260</pos>
+			<size>70,60</size>
+			<handler function="Onbtn5Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON11" variable="btn6" member="yes">
+			<label>6</label>
+			<pos>175,260</pos>
+			<size>70,60</size>
+			<handler function="Onbtn6Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON12" variable="btnSub" member="yes">
+			<label>-</label>
+			<pos>255,260</pos>
+			<size>70,60</size>
+			<handler function="OnbtnSubClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON13" variable="btn1" member="yes">
+			<label>1</label>
+			<pos>14,330</pos>
+			<size>70,60</size>
+			<handler function="Onbtn1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON14" variable="btn2" member="yes">
+			<label>2</label>
+			<pos>95,330</pos>
+			<size>70,60</size>
+			<handler function="Onbtn2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON15" variable="btn3" member="yes">
+			<label>3</label>
+			<pos>175,330</pos>
+			<size>70,60</size>
+			<handler function="Onbtn3Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON16" variable="btnmult" member="yes">
+			<label>*</label>
+			<pos>255,330</pos>
+			<size>70,60</size>
+			<handler function="OnbtnmultClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON17" variable="btn0" member="yes">
+			<label>0</label>
+			<pos>15,400</pos>
+			<size>70,60</size>
+			<handler function="Onbtn0Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON18" variable="btnDot" member="yes">
+			<label>.</label>
+			<pos>95,400</pos>
+			<size>70,60</size>
+			<handler function="OnbtnDotClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON19" variable="btnEqual" member="yes">
+			<label>=</label>
+			<pos>175,400</pos>
+			<size>70,60</size>
+			<handler function="OnbtnEqualClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON20" variable="btnDiv" member="yes">
+			<label>/</label>
+			<pos>255,400</pos>
+			<size>70,60</size>
+			<handler function="OnbtnDivClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="lblshowop1" member="yes">
+			<label></label>
+			<pos>80,32</pos>
+			<size>30,25</size>
+			<fg>wxSYS_COLOUR_MENUTEXT</fg>
+			<bg>wxSYS_COLOUR_WINDOW</bg>
+			<style>wxALIGN_CENTRE</style>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="lblshowop2" member="yes">
+			<label></label>
+			<pos>110,32</pos>
+			<size>60,25</size>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem1" member="no">
+					<label>Quit</label>
+					<accel>Alt-F4</accel>
+					<help>Quit the application</help>
+					<handler function="OnQuit" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="no">
+				<label>Help</label>
+				<object class="wxMenuItem" name="idMenuAbout" variable="MenuItem2" member="no">
+					<label>About</label>
+					<accel>F1</accel>
+					<help>Show info about this application</help>
+					<handler function="OnAbout" entry="EVT_MENU" />
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-1</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>
